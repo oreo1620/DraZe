@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css"
+    <link rel="icon" type="image/png" href="img/logo2.png" >
+    <title>Draze</title>
+    
+</head>
+
+<body>
+    <div class="logo">
+        <a href="#"><img src="/img/logo.png" width="150" alt="Logo"></a>
+    </div>
+    
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="kDrama.html">KDrama</a></li>
+            <li><a href="cDrama.html">CDrama</a></li>
+            <li><a href="others.html">Others</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search here...">
+            <button id="searchButton" onclick="searchItems()">Search</button>
+        </div>
+    </nav>
+    
+    <!-- Placeholder for search results -->
+    <h2 id="searchResults" class="search-results"></h2>
+
+    <!-- Content area for all items -->
+    <div id="content" class="gallery-container"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
